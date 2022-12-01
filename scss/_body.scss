@@ -1,0 +1,74 @@
+:root {
+    --fondoPrincipal: #1F1D2B;
+    --azulClaro: #0045B5;
+    --azulOscuro: #2A30A5;
+    --violetaIntenso: #42047E;
+    --colorVioleta: #3B3B7E;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: var(--fondoPrincipal);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #ffffff50;
+    border-radius: 10px;
+    border-right: 2px solid var(--fondoPrincipal);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' !important;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    background-color: var(--fondoPrincipal);
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold !important;
+    margin-bottom: 0 !important;
+    background: #ccc !important;
+    background: linear-gradient(-90deg, #4defa7, #2d71fa) !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text !important;
+ }
+
+h2 {
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+p {
+    color: #ffffff;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.anclaBoton {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+}
+

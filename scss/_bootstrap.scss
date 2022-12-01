@@ -1,0 +1,98 @@
+.navbar {
+    background-color: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 1;
+    border-bottom: 1px solid #ffffff;
+}
+  
+.navbar-brand {
+    color: #FFFFFF; 
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background: linear-gradient(-90deg, #4defa7, #2d71fa) !important;
+    width: 0%;
+    height: 4px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.navbar .navbar-nav .nav-item:hover:after {
+    width: 100%;
+}
+
+.navbar-toggler {
+    border: none !important;
+    color: none !important;
+}
+
+.navbar-toggler-icon {
+    background: url(../img/menu.svg);
+}
+
+.nav-item {
+    color: #FFFFFF !important;
+}
+
+.card {
+    border-radius: 25px !important;
+    border: 1px solid #FFFFFF;
+    margin: auto !important;
+    -webkit-box-shadow: inset -40px 40px 140px -15px rgba(255,255,255,0.25);
+    -moz-box-shadow: inset -40px 40px 140px -15px rgba(255,255,255,0.25);
+    box-shadow: inset -40px 40px 140px -15px rgba(255,255,255,0.25);
+    --bs-card-bg: none !important;
+
+
+}
+.card-animation{
+    filter: grayscale(100%);
+
+}
+
+.card-animation:hover {
+    scale: 105%;
+    filter: grayscale(0%);
+    transition: 1s ease-in-out 1s;
+    transition-duration: 1s;
+}
+
+.card-title {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+.card-img-top {
+    padding: 10px 10px 0px 10px;
+    border-radius: 30px !important;
+}
+
+
+.card-text {
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+.container-fluid {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+

@@ -1,0 +1,43 @@
+section div.fondo-proyectos{
+    background-image: url(../img/fondo-py-bk.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.titulo-proyectos {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.logos-card {
+    max-width: 24px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.circuloVioletaProyecto {
+    position: absolute;
+    left: 200px;
+    z-index: -1;
+    background: #bc13ff;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    filter: blur(3rem);
+    opacity: 35%;
+}
+.circuloAzulProyecto {
+    position: absolute;
+    left: 400px;
+    bottom: 200px;
+    z-index: -1;
+    background: #00f7ff;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    filter: blur(3rem);
+    opacity: 35%;
+}

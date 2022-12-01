@@ -1,0 +1,39 @@
+
+.sobre-mi {
+    padding: 150px 0px 150px 0px;
+    background-image: url(../img/fondo-sm-bk.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.imgSobreMi {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    border: 1px solid #000000;
+    border-radius: 45px;
+    -webkit-box-shadow: inset -40px 40px 140px -15px rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: inset -40px 40px 140px -15px rgba(255, 255, 255, 0.25);
+    box-shadow: inset -40px 40px 140px -15px rgba(255, 255, 255, 0.25);
+
+    img {
+        width: 90%;
+        margin: 5% 0 5% 0;
+        border-radius: 25px;
+    }
+}
+
+
+
+.texto-sobre-mi {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.titulos-secciones {
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}

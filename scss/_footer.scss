@@ -1,0 +1,130 @@
+footer {
+    padding-bottom: 1rem;
+    padding-top: 4rem;
+
+    div.fondo-contacto{
+        background-image: url(../img/fondo-cont-bk.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+}
+
+
+.cont-footer {
+    color: #FFFFFF;
+    padding: 50px 0px 50px 0px;
+}
+
+.titulo-contacto {
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.redes-footer {
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-form {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+input {
+    background: none;
+    color: #ffffff;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    margin: 5px 0px 10px 0px;
+    padding: 5px 15px 5px 15px;
+    -webkit-box-shadow: inset -20px 20px 70px -15px rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: inset -20px 20px 70px -15px rgba(255, 255, 255, 0.25);
+    box-shadow: inset -20px 20px 70px -15px rgba(255, 255, 255, 0.25);
+}
+
+::placeholder {
+    color: #7a7a7a;
+}
+
+.boton {
+    background: none;
+    border: 1px solid #ffffff;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 40%;
+
+    &:hover {
+        color: #3B3B7E;
+        background-color: #bbbbff;
+        border: 1px solid #ffffff;
+        padding: 5px 10px;
+        translate: 1000ms;
+        transition: 0.5s ease;
+    }
+}
+
+
+.footer-pie {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ffffff;
+    padding: 20px 0px 20px 0px;
+
+    span {
+        font-weight: 600;
+        padding-left: 3px;
+    }
+}
+
+.footer-pag-int {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #FFFFFF;
+}
+
+.titulo-contacto-pag-int {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: -50px;
+    padding-bottom: 15px;
+}
+
+.redes-footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.info-contacto {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 200;
+    padding-bottom: 5px;
+
+    a:link {
+        color: #FFFFFF !important;
+    }
+
+    a:active {
+        color: #FFFFFF !important;
+    }
+}

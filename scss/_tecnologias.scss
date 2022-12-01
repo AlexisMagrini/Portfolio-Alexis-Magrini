@@ -1,0 +1,27 @@
+.logos-tecno {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.logos-tecno-int {
+    cursor: pointer;
+    width: 50px;
+    padding-right: 5px;
+    filter: grayscale(100%);
+
+    &:hover {
+        filter: grayscale(0%);
+        transition: all 0.5s;
+    }
+}
+
+
+.habilidades {
+    font-size: 1rem;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
