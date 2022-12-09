@@ -68,10 +68,12 @@
 }
 
 .card-animation:hover {
-    scale: 105%;
+    scale: 102%;
     filter: grayscale(0%);
-    transition: 1s ease-in-out 1s;
+    transition: 1s ease-in-out;
     transition-duration: 1s;
+    animation: pulse; 
+    animation-duration: 0.5s;
 }
 
 .card-title {
